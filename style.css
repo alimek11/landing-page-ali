@@ -1,0 +1,223 @@
+/* Write some CSS below */
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: 'Overpass';
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lato';
+}
+
+h1 {
+  color: #d7b66d;
+  font-size: 46px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #064a42;
+}
+
+h3 {
+font-size: 22px;
+color: #064a42;
+}
+
+h4{
+  font-size: 20px;
+  color: #d7b66d
+}
+h5{
+  font-size: 20px;
+  color: #064a42;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url('images/vabanner.png');
+  background-position: center;
+  background-size: auto;
+  max-width: 100%;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner p{
+  font-weight: 200;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 40px;
+  opacity: 0.7;
+}
+
+.btn-green {
+  background-color: whitesmoke;
+   color: #064a42;
+   border-radius: 10px;
+   padding: 20px 50px;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.btn-green:hover{
+  background-color: black;
+  color: whitesmoke; 
+}
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 24px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 8px;
+  border-radius: 5px;
+}
+
+.card-white img{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-white img {
+  max-width: 100%;
+  height: auto;
+}
+.card-white{
+  transition: 0.35;
+}
+.card-white: hover{
+  transform: scale(1.1);
+}
+.card-white:hover{
+  opacity: 0.7;
+}
+.footer {
+  background-color: #38383A;
+  color: white;
+  padding: 50px 0;
+}
+
+.footer p {
+  font-size: 20px;
+}
+
+.cards-inline{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+.cards-inline2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.main-price {
+  font-weight: 800;
+  color: #064a42 ;
+
+}
+.pricecap{
+  color: #064a42; 
+}
+.banner2{
+  text-align: center;
+  size: 200%;
+  box-shadow: #064a42;
+}
+#ban1{
+  width: 840px;
+  height: 460px;
+}
+.btn-white{
+  background-color:  #064a42; 
+  color: white; 
+  border-radius: 5px;
+  padding: 10px 15px; 
+  font-family: 'lato'; 
+  text-decoration: none;
+}
+.btn-white:hover{
+  background-color: #064a42
+}
+.bannertextvideo{
+  background-color: #064a42 ;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.grid div {
+  height: 400px;
+}
+
+.banner p {
+  font-weight: 400;
+  font-size: 15px;
+  color: rgb(255, 162, 112);
+  margin-bottom: 40px;
+  opacity: 0.5;
+
+}
+
+#droite {
+  background-color: #064a42;
+  color: #ffffff;
+  font-family: 'Lato Light';
+  font-weight: lighter;
+  line-height: 1.7;
+  padding-left: 50px;
+  text-align: center;
+  padding-right: 30px;
+  border-right: 3px solid #064a42;
+  border-bottom: 3px solid  #064a42;
+}
+hr {
+  border: none;
+  border-top: none;
+  margin-top: 50px;
+}
+.list-inline li {
+  display: inline;
+}
+
+.list-inline i {
+  font-size: 50px;
+  text-align: center;
+  color: #d7b66d;
+  letter-spacing: 30px;
+}
+
+.list-inline i:hover {
+  color: #d7b66d;
+}
+.list-inline {
+  margin-bottom: 30px;
+}    
+.cards-inline3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin-bottom: 50px;
+}
